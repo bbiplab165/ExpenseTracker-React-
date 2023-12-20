@@ -1,0 +1,45 @@
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #5A96E3;
+}
+.left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 40%;
+    margin-left: 3%;
+    
+}
+.left h2{
+    width: fit-content;
+    cursor: pointer !important;
+}
+.left button{
+    width: fit-content;
+    height: fit-content;
+    margin-left: 3%;
+    padding: 2% ;
+    padding-bottom: 1.5%;
+    background-color: #5A96E3;
+    border: none;
+    font-size: 1.1rem;
+    cursor: pointer !important;
+}
+.right{
+    display: flex;
+    flex-direction: row;
+    margin-right: 3% !important;
+    width: 25% !important;
+}
+.right button{
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    padding: 2% 5%;
+    margin-left: 10%;
+    font-size: 1.1rem;
+    cursor: pointer !important;
+}

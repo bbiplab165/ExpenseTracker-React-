@@ -1,0 +1,38 @@
+.notAdmin h1{
+    text-align: center;
+    margin-top: 10%;
+}
+.main{
+    width: 70%;
+    margin: auto;
+    border: 1px solid #ccc;
+    margin-top: 5%;
+}
+.main h2{
+    text-align: center;
+    /* border-top: 1px solid #ccc; */
+    margin-top: 1%;
+}
+.header{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.header h3{
+    flex: 1;
+    margin-top: 0;
+    padding:1% 0;
+    text-align: center;
+    background-color: #5A96E3;
+    border-right: 1px solid #ccc;
+    margin-bottom: 0;
+}
+.expenses{
+    display: flex;
+}
+.expenses h3{
+    flex: 1;
+    text-align: center;
+    margin: 0;
+    padding: 0.7% 0;
+    border-right: 1px solid #ccc;
+}
